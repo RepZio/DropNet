@@ -414,6 +414,22 @@ namespace DropNet.Helpers
             return request;
         }
 
+        internal RestRequest CreateLatestCursorRequest(string pathPrefix, bool includeMediaInfo)
+        {
+            var request = new RestRequest(Method.POST);
+            request.Resource = "{version}/delta/latest_cursor";
+
+            request.AddParameter("version", _version, ParameterType.UrlSegment);
+            request.AddParameter("include_media_info", includeMediaInfo);
+
+            if (!string.IsNullOrEmpty(pathPrefix))
+            {
+                request.AddParameter("path_prefix", pathPrefix);
+            }
+
+            return request;
+        }
+
         internal RestRequest CreateLongpollDeltaRequest(string cursor, int timeout)
         {
             var request = new RestRequest(Method.GET);

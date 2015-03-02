@@ -300,6 +300,12 @@ namespace DropNet
             return Execute<CopyRefResponse>(ApiType.Base, request);
         }
 
+        public DeltaLatestCursor GetLatestCursor(string pathPrefix, bool includeMediaInfo)
+        {
+            var request = _requestHelper.CreateLatestCursorRequest(pathPrefix, includeMediaInfo);
+            return Execute<DeltaLatestCursor>(ApiType.Base, request);
+        }
+
         /// <summary>
         /// A long-poll endpoint to wait for changes on an account. In conjunction with /delta, this call gives you a low-latency way to monitor an account for file changes.
         /// </summary>

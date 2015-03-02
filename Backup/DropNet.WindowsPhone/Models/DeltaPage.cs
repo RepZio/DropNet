@@ -75,12 +75,4 @@ namespace DropNet.Models
         /// </summary>
         public int Backoff { get; set; }
     }
-
-    /// <summary>
-    /// Public class representing the lates cursor
-    /// </summary>
-    public class DeltaLatestCursor
-    {
-        public string Cursor { get; set; }
-    }
 }
