@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using RestSharp;
 using DropNet.Extensions;
+using RestSharp.Authenticators;
 
 namespace DropNet.Authenticators
 {

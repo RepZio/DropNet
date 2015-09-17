@@ -9,6 +9,7 @@ using RestSharp;
 using RestSharp.Deserializers;
 using System.Threading.Tasks;
 using OAuth2Authenticator = DropNet.Authenticators.OAuth2Authenticator;
+using RestSharp.Authenticators;
 
 namespace DropNet
 {

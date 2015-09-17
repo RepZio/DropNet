@@ -2,7 +2,7 @@
 
 namespace DropNet.Authenticators
 {
-    public class OAuth2Authenticator : RestSharp.OAuth2Authenticator
+    public class OAuth2Authenticator : RestSharp.Authenticators.OAuth2Authenticator
     {
         public OAuth2Authenticator(string accessToken) : base(accessToken)
         {
