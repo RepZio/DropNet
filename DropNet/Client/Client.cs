@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Net;
-using DropNet.Authenticators;
-using DropNet.Exceptions;
-using DropNet.Extensions;
-using DropNet.Helpers;
-using DropNet.Models;
+using RepZio.DropNet.Authenticators;
+using RepZio.DropNet.Exceptions;
+using RepZio.DropNet.Extensions;
+using RepZio.DropNet.Helpers;
+using RepZio.DropNet.Models;
 using RestSharp;
 using RestSharp.Deserializers;
 using System.Threading.Tasks;
-using OAuth2Authenticator = DropNet.Authenticators.OAuth2Authenticator;
+using OAuth2Authenticator = RepZio.DropNet.Authenticators.OAuth2Authenticator;
 using RestSharp.Authenticators;
 
-namespace DropNet
+namespace RepZio.DropNet
 {
     public partial class DropNetClient : IDropNetClient
     {

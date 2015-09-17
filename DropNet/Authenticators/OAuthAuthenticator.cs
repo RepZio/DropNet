@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using RestSharp;
-using DropNet.Extensions;
+using RepZio.DropNet.Extensions;
 using RestSharp.Authenticators;
 
-namespace DropNet.Authenticators
+namespace RepZio.DropNet.Authenticators
 {
     public class OAuthAuthenticator : IAuthenticator
     {

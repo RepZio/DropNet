@@ -3,7 +3,7 @@ using System.Linq;
 using RestSharp;
 using System.Net;
 
-namespace DropNet.Exceptions
+namespace RepZio.DropNet.Exceptions
 {
     public class DropboxException : Exception
     {

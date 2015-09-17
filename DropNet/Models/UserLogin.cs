@@ -1,5 +1,5 @@
 ﻿using System;
-namespace DropNet.Models
+namespace RepZio.DropNet.Models
 {
 #if !WINDOWS_PHONE
     [Serializable]

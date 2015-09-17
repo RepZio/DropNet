@@ -1,10 +1,10 @@
-﻿using DropNet.Models;
+﻿using RepZio.DropNet.Models;
 using RestSharp;
 using System;
-using DropNet.Authenticators;
-using DropNet.Exceptions;
+using RepZio.DropNet.Authenticators;
+using RepZio.DropNet.Exceptions;
 
-namespace DropNet
+namespace RepZio.DropNet
 {
     public partial class DropNetClient
     {

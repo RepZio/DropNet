@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using DropNet.Models;
+using RepZio.DropNet.Models;
 using RestSharp;
 using System;
-using DropNet.Exceptions;
+using RepZio.DropNet.Exceptions;
 
-namespace DropNet
+namespace RepZio.DropNet
 {
     public partial class DropNetClient
     {
@@ -127,7 +127,7 @@ namespace DropNet
 
         public void UploadChunkedFileAsync(Func<long, byte[]> chunkNeeded, string path, Action<MetaData> success, Action<DropboxException> failure, Action<ChunkedUploadProgress> progress = null, bool overwrite = true, string parentRevision = null, long? fileSize = null, long? maxRetries = null)
         {
-            var chunkedUploader = new DropNet.Helpers.ChunkedUploadHelper(this, chunkNeeded, path, success, failure, progress, overwrite, parentRevision, fileSize, maxRetries);
+            var chunkedUploader = new RepZio.DropNet.Helpers.ChunkedUploadHelper(this, chunkNeeded, path, success, failure, progress, overwrite, parentRevision, fileSize, maxRetries);
             chunkedUploader.Start();
         }
 

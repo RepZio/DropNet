@@ -3,14 +3,14 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using DropNet.Models;
-using DropNet.Authenticators;
+using RepZio.DropNet.Models;
+using RepZio.DropNet.Authenticators;
 using System.Net;
-using DropNet.Exceptions;
+using RepZio.DropNet.Exceptions;
 using RestSharp;
 using RestSharp.Deserializers;
 
-namespace DropNet
+namespace RepZio.DropNet
 {
     public partial class DropNetClient
     {

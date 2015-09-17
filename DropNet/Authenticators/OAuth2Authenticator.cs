@@ -1,6 +1,6 @@
 ﻿using RestSharp;
 
-namespace DropNet.Authenticators
+namespace RepZio.DropNet.Authenticators
 {
     public class OAuth2Authenticator : RestSharp.Authenticators.OAuth2Authenticator
     {

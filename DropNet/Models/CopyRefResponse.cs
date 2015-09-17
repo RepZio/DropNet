@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DropNet.Models
+namespace RepZio.DropNet.Models
 {
     public class CopyRefResponse
     {

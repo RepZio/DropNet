@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
-using DropNet.Authenticators;
-using DropNet.Exceptions;
-using DropNet.Models;
+using RepZio.DropNet.Authenticators;
+using RepZio.DropNet.Exceptions;
+using RepZio.DropNet.Models;
 using RestSharp;
 
-namespace DropNet
+namespace RepZio.DropNet
 {
     public interface IDropNetClient
     {

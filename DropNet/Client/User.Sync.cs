@@ -1,11 +1,11 @@
 ﻿#if !WINDOWS_PHONE
 
-using DropNet.Models;
+using RepZio.DropNet.Models;
 using RestSharp;
-using DropNet.Authenticators;
+using RepZio.DropNet.Authenticators;
 using System;
 
-namespace DropNet
+namespace RepZio.DropNet
 {
     public partial class DropNetClient
     {

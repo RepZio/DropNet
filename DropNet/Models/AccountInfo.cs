@@ -1,4 +1,4 @@
-﻿namespace DropNet.Models
+﻿namespace RepZio.DropNet.Models
 {
     public class AccountInfo
     {

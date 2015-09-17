@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace DropNet.Extensions
+namespace RepZio.DropNet.Extensions
 {
     public static class StringExtensions
     {

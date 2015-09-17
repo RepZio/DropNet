@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DropNet.Models
+namespace RepZio.DropNet.Models
 {
     /// <summary>
     /// Response to the Delta API Call

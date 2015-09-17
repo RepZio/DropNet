@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using DropNet.Authenticators;
+using RepZio.DropNet.Authenticators;
 using RestSharp;
-using DropNet.Models;
+using RepZio.DropNet.Models;
 
-namespace DropNet.Helpers
+namespace RepZio.DropNet.Helpers
 {
     /// <summary>
     /// Helper class for creating DropNet RestSharp Requests

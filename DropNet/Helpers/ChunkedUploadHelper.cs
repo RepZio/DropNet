@@ -1,8 +1,8 @@
 ﻿using System;
-using DropNet.Exceptions;
-using DropNet.Models;
+using RepZio.DropNet.Exceptions;
+using RepZio.DropNet.Models;
 
-namespace DropNet.Helpers
+namespace RepZio.DropNet.Helpers
 {
     public class ChunkedUploadHelper
     {

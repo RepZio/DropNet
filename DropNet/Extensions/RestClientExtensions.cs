@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using RestSharp;
 using System.Threading;
 using System.Net;
-using DropNet.Exceptions;
+using RepZio.DropNet.Exceptions;
 
-namespace DropNet.Extensions
+namespace RepZio.DropNet.Extensions
 {
     public static class RestClientExtensions
     {
